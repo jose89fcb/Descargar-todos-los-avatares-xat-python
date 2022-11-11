@@ -16,7 +16,7 @@ os.chdir(os.path.join(os.getcwd(),f"avatares xat"))
 
 
 totalAvatares=0
-for i in range(1,1759):
+for i in range(0,1759):
     totalAvatares=totalAvatares+1
    
     DescargarAvatar= open(f'{i}.png','wb')
