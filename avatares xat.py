@@ -26,4 +26,4 @@ for i in range(0,1759):
     DescargarAvatar.write(urllib.request.urlopen(f'https://xat.com/web_gear/chat/av/{i}.png').read())
     
     DescargarAvatar.close()
-print(f"Se han descargado un total de {totalAvatares} sonidos.")
+print(f"Se han descargado un total de {totalAvatares} avatares.")
